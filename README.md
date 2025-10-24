@@ -1,19 +1,101 @@
-![image](https://github.com/yunusajib/LLM-Project/assets/95318976/bf6cb4d9-3b52-426e-bebe-3adf89f4f0ac)**YouTube GPT Creator**
+🎬 YouTube GPT Creator — AI Topic & Script Generator
 
- YouTube GPT Creator is a Streamlit-based application designed to assist content creators in generating unique and engaging YouTube video topics and scripts. By leveraging the power of OpenAI's GPT models and integrating Wikipedia research, this tool streamlines the content creation process, making it easier for creators to produce high-quality content.
+     Create YouTube content faster — with automatic video ideas + researched scripts
+     
+     YouTube GPT Creator helps content creators generate unique, engaging video topics and scripts in seconds.
+     It combines GPT-based text generation with Wikipedia-powered research — so content is not only creative, but accurate, informative, and SEO-ready.
+     
+     Built with a clean Streamlit UI for easy use by anyone.
 
-**Features**
-  •	**Topic Generation:** Input your desired Youtube Video Title, and the app will generate a script of the YouTube video .
-  •	**Script Writing:** Based on the generated topic and supplemented by relevant Wikipedia research, the app crafts a detailed script for your YouTube video.
-  •	**Historical Views:** Track the history of generated titles, scripts, and Wikipedia research within the app to refine and develop your content strategy.
-  •	Installation
-  •	To get started, ensure you have Python and Streamlit installed. Then, clone this repository to your local machine.
-  
-  •**Set Up API Key:** Obtain an API key from OpenAI and store it in an apikey.py file in the root directory as a variable named apikey.
-  
-  •	**Generate Content:** Input your desired content topic in the provided text input field, and let the app generate a topic and script for you. Explore the historical data for titles, scripts, and Wikipedia research to enhance your content creation process.
-  •	Components
-  •	**Streamlit:** For the app framework, enabling an interactive web application.
-  •	**OpenAI GPT Models:** For generating creative and coherent text based on the input prompts.
-  •	**Wikipedia API Wrapper:** To fetch relevant information from Wikipedia, enriching the content and context of the generated scripts.
-![image](https://github.com/yunusajib/LLM-Project/assets/95318976/80da31d5-0d7a-43d6-ad38-a36c36297ae2)
+🔹 Problem
+
+     Content creators often struggle with one or more of these challenges:
+     
+     ✖ Creative block
+     ✖ Lack of time to research topics
+     ✖ Difficulty writing structured scripts
+     ✖ Producing consistent content formats
+
+     Creators need a tool that reduces the effort required to go from idea → polished script.
+
+🔹 Solution
+
+     This tool automates 3 major content creation steps:
+     
+     1️⃣ User enters a YouTube video title
+     2️⃣ GPT generates a clear, structured script
+     3️⃣ Wikipedia research adds factual background
+
+Outputs include:
+
+     ✅ Engaging hook
+     ✅ Organized sections
+     ✅ Informative details
+     ✅ Full-length YouTube script
+
+     Plus: automatic history log to evolve content strategy.
+
+🚀 Features
+
+     ✔ Generate full YouTube script from a simple prompt
+     ✔ Wikipedia integration for accurate research
+     ✔ Track historical scripts + topics in app
+     ✔ Clean and fast Streamlit web UI
+     ✔ Designed for creators with no technical skills needed
+
+📦 Tech Stack
+
+     Component	Tool
+     UI Framework	Streamlit
+     AI Text Generation	OpenAI GPT Models
+     Research API	Wikipedia API Wrapper
+     Language	Python 3.10+
+     
+🧠 Skills Demonstrated
+
+    LLM application development
+
+    Prompt engineering for structured content writing
+    
+    Third-party API integration
+    
+    Deploying AI apps for non-technical users
+    
+    Persistent local storage for user history
+
+🛠️ Installation
+    
+    git clone https://github.com/YOUR_USERNAME/youtube-gpt-creator.git
+    cd youtube-gpt-creator
+    pip install -r requirements.txt
+
+🔑 Set Up API Key
+
+    Create apikey.py in the project root:
+    
+    apikey = "YOUR_OPENAI_API_KEY"
+
+    ▶ Run the App
+
+    streamlit run app.py
+
+📂 Project Structure
+
+     youtube-gpt-creator/
+     │── app.py           # Main Streamlit interface
+     │── apikey.py        # API key storage
+     │── requirements.txt # Dependencies
+     └── README.md        # Documentation
+
+📊 Future Enhancements
+
+     Feature	Benefit
+     Voice-over script tone options (funny / professional / trending)	Audience-tailored content
+     SEO keyword suggestions	Better YouTube ranking
+     Automatic thumbnail title generator	Faster publishing workflow
+     Export script to PDF/Google Docs	Ready for upload
+     Multi-language support	International content creators
+👨‍💻 Author
+
+Yunusa Jibrin
+AI Developer | Creative Automation Enthusiast
