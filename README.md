@@ -65,7 +65,7 @@ Outputs include:
 
 🛠️ Installation
     
-    git clone https://github.com/YOUR_USERNAME/youtube-gpt-creator.git
+    git clone https://github.com/yunusajib/LLM-Project.git
     cd youtube-gpt-creator
     pip install -r requirements.txt
 
